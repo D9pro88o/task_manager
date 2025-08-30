@@ -8,7 +8,6 @@ class UserSerializer(serializers.ModelSerializer):
 
 class TaskSerializer(serializers.ModelSerializer):
     user = UserSerializer(read_only=True)  # display user info
-
     class Meta:
         model = Task
         fields = ['id', 'title', 'description', 'is_complete', 'user']
