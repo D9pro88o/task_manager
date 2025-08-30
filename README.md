@@ -31,9 +31,3 @@ This project is a Django-based API for managing tasks. It allows users to create
 - Python 3.11+
 - Django
 - Django REST Framework
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-link>
-   cd task_manger
